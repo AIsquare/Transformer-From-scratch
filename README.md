@@ -77,7 +77,7 @@ The positional encoding mechanism described in the text is crucial for Transform
 ![Positional Encoding](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
 
 
-** $\psi'(w_t) = \psi(w_t) + \vec{p}_t$
+** $\psi'(w_t) = \psi(w_t) + \vec{p}_t$ **
 
 
 For each word `w_t` in a sentence `[w_1, ..., w_n]`, you calculate the modified embedding `ψ'(w_t)` as follows:
