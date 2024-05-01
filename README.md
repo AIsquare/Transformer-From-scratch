@@ -73,7 +73,7 @@ The positional encoding mechanism described in the text is crucial for Transform
 4. Difference in frequency height(d_model dimension) helps to resolve order conflict.
 
 
-![PE](https://www.researchgate.net/publication/365934720/figure/fig4/AS:11431281104180074@1669973335008/Working-of-positional-encoding-in-Transformer-Neural-Networks.jpg)
+![PE](img.png)
 ![Positional Encoding](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
 
 
