@@ -73,7 +73,7 @@ The positional encoding mechanism described in the text is crucial for Transform
 4. Difference in frequency height(d_model dimension) helps to resolve order conflict.
 
 
-![img](https://www.researchgate.net/publication/372249718/figure/fig2/AS:11431281173947662@1689084615862/Positional-encoding-for-the-feature-representations-Top-Sinusoidal-representation-for.png]
+![img](https://www.researchgate.net/publication/372249718/figure/fig2/AS:11431281173947662@1689084615862/Positional-encoding-for-the-feature-representations-Top-Sinusoidal-representation-for.png)
 
 ![Positional Encoding](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
 
