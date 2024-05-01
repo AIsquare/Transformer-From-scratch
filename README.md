@@ -1,5 +1,52 @@
 # Little More Attention - Mechanism
-## Attention is all you need, the architecture
+
+This repo is divided into three parts:
+1.   GPT2 From scratch
+2. Full transformer architecture, i.e encoder decoder both with translation project(ENG-Italian)
+3. Positional encoding explanation with code
+4. Multi-headed attention from scratch.
+
+## 1. GPT-2 Architecture
+
+## Key Components and Layers
+
+### Transformer Architecture
+- GPT-2 only employs the decoder Transformer layer. It's an autoregressive model.
+
+### Self-Attention Mechanism
+- Self-attention mechanism allows GPT-2 to weigh the importance of different words in a sequence. It captures long-range dependencies and context understanding.
+
+### Decoder Layers
+- GPT-2 comprises multiple layers of decoder blocks stacked on top of each other. The number of layers varies across different versions of GPT-2:
+  - GPT-2 Small: 12 decoder layers
+  - GPT-2 Medium: 24 decoder layers
+  - GPT-2 Large: 36 decoder layers
+  - GPT-2 XL: 48 decoder layers
+  
+  Each decoder layer contains:
+  - Self-Attention Sub-layer: Computes self-attention mechanism to capture dependencies between words in the sequence.
+  - Layer Normalization: Normalizes the inputs to stabilize training and improve generalization.
+  - Feedforward Neural Network Sub-layer: Consists of two linear transformations followed by a ReLU activation function.
+  - Another Layer Normalization
+  
+### Vocabulary Embeddings
+- GPT-2 uses embeddings to represent each token in the input sequence. The size of embeddings is typically 768 dimensions for all versions of GPT-2.
+
+### Parameters
+- The number of parameters in each version of GPT-2 varies based on the number of layers and other architectural details:
+  - GPT-2 Small: Approximately 117 million parameters
+  - GPT-2 Medium: Approximately 345 million parameters
+  - GPT-2 Large: Approximately 774 million parameters
+  - GPT-2 XL: Approximately 1.5 billion parameters
+
+## 2. Translation Notebook (en-it)
+
+| Notebook                                                            | Description                                                                                                           | Notebook                                                                                                                                                  |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 🧐 [TRANSLATION NOTEBOOK](https://github.com/AIsquare/Transformer-From-scratch/tree/main/translation) | A full transformer(encoder-decoder) architecture with evaluation. Run the whole script in colab | <a href="https://colab.research.google.com/drive/1LCKPGOQiuJDbuKlhg-MP9sjEMtfcB5Q8?usp=sharing"><img src="translation/colab.svg" alt="Open In Colab"></a> |
+
+## 3. Positional Encoding
+### Attention is all you need, the architecture
 
 ![The Architecture](https://kazemnejad.com/img/transformer_architecture_positional_encoding/model_arc.jpg)
 What is positional encoding and Why it is so important?
@@ -67,7 +114,4 @@ Reference links:
 [Links](https://blog.timodenk.com/linear-relationships-in-the-transformers-positional-encoding/)
 
 # Knowing Self Attention, Attention!
-
-
-
-### Visualizing attetnion, on its diagonal the attention will be high because it is itneratcting with itself,
+## Coming soon....
