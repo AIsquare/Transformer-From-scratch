@@ -77,7 +77,8 @@ The positional encoding mechanism described in the text is crucial for Transform
 ![Positional Encoding](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
 
 
-<h1><strong>$\psi'(w_t) = \psi(w_t) + \vec{p}_t$</strong></h1>
+<p align="center"><strong><font size="5">$\psi'(w_t) = \psi(w_t) + \vec{p}_t$</font></strong></p>
+
 
 
 
