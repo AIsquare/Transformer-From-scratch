@@ -1,6 +1,6 @@
 # Little More Attention - Mechanism
 
-This repo is divided into three parts:
+This repo is divided into 4 parts:
 1.   GPT2 From scratch
 2. Full transformer architecture, i.e encoder decoder both with translation project(ENG-Italian)
 3. Positional encoding explanation with code
