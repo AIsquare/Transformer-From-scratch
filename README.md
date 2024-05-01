@@ -71,11 +71,12 @@ The positional encoding mechanism described in the text is crucial for Transform
 2. To give a bounded region
 3. Extrapolate to long sequences.
 4. Difference in frequency height(d_model dimension) helps to resolve order conflict.
-5. ![img.png](https://www.researchgate.net/publication/372249718/figure/fig2/AS:11431281173947662@1689084615862/Positional-encoding-for-the-feature-representations-Top-Sinusoidal-representation-for.png)
-   ![Positional Encoding](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
+
+![img.png](https://www.researchgate.net/publication/372249718/figure/fig2/AS:11431281173947662@1689084615862/Positional-encoding-for-the-feature-representations-Top-Sinusoidal-representation-for.png)
+![Positional Encoding](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
 
 
-$\psi'(w_t) = \psi(w_t) + \vec{p}_t$
+### $\psi'(w_t) = \psi(w_t) + \vec{p}_t$
 
 
 For each word `w_t` in a sentence `[w_1, ..., w_n]`, you calculate the modified embedding `ψ'(w_t)` as follows:
