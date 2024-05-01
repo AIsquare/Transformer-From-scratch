@@ -72,12 +72,12 @@ The positional encoding mechanism described in the text is crucial for Transform
 3. Extrapolate to long sequences.
 4. Difference in frequency height(d_model dimension) helps to resolve order conflict.
 
-![img.png](https://www.researchgate.net/publication/372249718/figure/fig2/AS:11431281173947662@1689084615862/Positional-encoding-for-the-feature-representations-Top-Sinusoidal-representation-for.png)
+![img.png]([https://www.researchgate.net/publication/372249718/figure/fig2/AS:11431281173947662@1689084615862/Positional-encoding-for-the-feature-representations-Top-Sinusoidal-representation-for.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FWorking-of-positional-encoding-in-Transformer-Neural-Networks_fig4_365934720&psig=AOvVaw24ERKQNAv1sGOzN7IWNa7T&ust=1714642655751000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKC_geeT7IUDFQAAAAAdAAAAABAJ))
 
 ![Positional Encoding](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
 
 
-<p align="center"><strong><font size="5">$\psi'(w_t) = \psi(w_t) + \vec{p}_t$</font></strong></p>
+<p align="center"><strong><font size="20">$\psi'(w_t) = \psi(w_t) + \vec{p}_t$</font></strong></p>
 
 
 
